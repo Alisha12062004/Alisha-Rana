@@ -1,0 +1,158 @@
+body{
+    background-image:url(background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+body, h1,h2,p,ul{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.nav-logo{
+    height: 60px;
+    width:auto;
+    padding: 10px 20px;
+
+}
+
+@media (max-width:600px) {
+    .navigation ul{
+        flex-direction: column;
+    }
+
+    .navigation ul li{
+        text-align:center;
+        width: 100px;
+    }
+    
+    .nav-logo{
+        margin: 0 auto;
+    }
+}
+
+.site-header{
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding:20px 0;
+    top: 0;
+    width: 100%;
+}
+
+.site-header h1{
+    margin-bottom:10px;
+
+}
+
+.navigation ul{
+    list-style: none;
+
+}
+
+.navigation li{
+    display: inline;
+    margin:0 10px;
+
+}
+
+.navigation a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    text-align:center;
+
+}
+.content{
+    flex: 2;
+    padding: 20px;
+    margin-bottom:515px;
+    justify-content: space-around;
+}
+
+.navigation a:hover{
+   background-color:lightseagreen;
+}
+
+.site-footer{
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding:20px 0;
+   width: 100%;
+   bottom:0;
+   left:0;
+   position: fixed;
+
+
+}
+
+
+.site-footer p{
+    margin: 10px 0;
+
+}
+
+.site-footer a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+
+}
+
+
+
+main{
+    padding: 20px;
+    margin-top: 20px;
+    flex: 1;
+
+}
+
+
+
+.footer-logo{
+
+    display: block;
+    margin: 0 auto 10px;
+    width: 50px;
+    height: auto;
+}
+
+
+.panel {
+    flex: 1;
+    margin:0 5px;
+
+}
+
+.panel img{
+    width: 10%;
+    height: 1px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+h4{
+    text-align: right;
+    color:white;
+}
+
+
+
